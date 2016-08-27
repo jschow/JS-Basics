@@ -4,7 +4,7 @@ var name = 'Tyler';
 //Create a function called isTyler that accepts name as it's only parameter.
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
 
-  //Code Here
+  //Code Here --- FINISHED!!!
 var isTyler = function(name) {
   if(name === 'Tyler') {
     return true; // console.log(true) allows visualization of result
