@@ -6,15 +6,19 @@ var name = 'Tyler';
 
   //Code Here
 var isTyler = function(name) {
-  if(name === "Tyler") {
-    return true;
+  if(name === 'Tyler') {
+    return true; // console.log(true) allows visualization of result
   }
   else {
-    return false;
+    return false; // console.log(false) allows visualization of result
   }
 };
 
-isTyler();
+isTyler('John');
+isTyler('Jacob');
+isTyler('Jingleheimer');
+isTyler('Tyler');
+
 //////////////////PROBLEM 2////////////////////
 
 
