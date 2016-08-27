@@ -5,7 +5,16 @@ var name = 'Tyler';
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
 
   //Code Here
+var isTyler = function(name) {
+  if(name === "Tyler") {
+    return true;
+  }
+  else {
+    return false;
+  }
+};
 
+isTyler();
 //////////////////PROBLEM 2////////////////////
 
 
@@ -53,7 +62,7 @@ var name = 'Tyler';
 //Create a function called myName that returns your name
 
   //Code Here
-  
+
 
 
 //Now save the function definition of myName into a new variable called newMyName
